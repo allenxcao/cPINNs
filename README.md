@@ -2,4 +2,4 @@ In this paper, the authors proposed method, known as conservative physics-inform
 
 Both forward and inverse problems are solved using cPINN. The method is successfully applied to various test cases, such as scalar nonlinear conservation laws (e.g., Burgers, Korteweg–de Vries equations). It also tackles the lid-driven cavity test case governed by incompressible Navier–Stokes equations, and the results are compared against a benchmark solution.
 
-One of the advantages of cPINN is its domain decomposition property, using separate neural networks in each sub-domain. This enables efficient parallelized computation, with each sub-domain assigned to a different computational node. cPINN lets the neural networks share information through the interfaces for different sub-domains
+One of the advantages of cPINN is its domain decomposition property, using separate neural networks in each sub-domain. This enables efficient parallelized computation, with each sub-domain assigned to a different computational node. cPINN lets the neural networks share information through the interfaces for different sub-domains.
